@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>earning</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        background-color: #ffffff;
+        font-family: 'poppins', sans-serif;
+        display: flex;
+    }
+
+
+    header {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    header .right,
+    .left {
+        width: 30%;
+        height: 100vh;
+        background-color: #e7e7e7;
+        position: relative;
+        overflow-x: auto;
+    }
+
+    header .right,
+    .left::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    header .right {
+        width: 70%;
+        height: 100%;
+        background-color: #ffffff;
+    }
+
+    header .left img {
+        height: 150px;
+
+    }
+
+    header .left h1 {
+        display: block;
+        margin: auto;
+    }
+
+    header .left .list {
+        width: 100%;
+        overflow: auto;
+        margin-top: 30px;
+    }
+
+
+    header .left .list li {
+        list-style-type: none;
+        padding: 10px 0px 20px 30px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: .3s linear;
+    }
+
+    header .left .list li:hover {
+        background: rgba(77, 77, 85, 0.538);
+    }
+
+
+    header .left .list li span {
+        font-size: 24px;
+        font-weight: 600;
+        color: #4c5262;
+        display: flex;
+    }
+
+    header .left .list li img {
+        width: 55px;
+        height: 55px;
+        margin-left: 25px;
+        border-radius: 5px;
+    }
+
+
+    header .left .list li h5 {
+        font-size: 15px;
+        margin-left: 18px;
+        color: #ffffff;
+        margin-right: 10px;
+        font-family: poppins;
+    }
+
+    header .left .list li h5 .subtitle {
+        font-size: 10px;
+        color: #4c5262;
+    }
+
+    header .right {
+        display: block;
+        padding-top: 100px;
+    }
+
+    header .right .card {
+        display: block;
+        margin: auto;
+        background-color: #ededed;
+        width: 400px;
+        height: 450px;
+        border-radius: 5%;
+        box-shadow: 5px 8px 30px 2px rgba(36, 35, 35, 0.2);
+    }
+
+    header .right .card h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header .right .card .scroll {
+        width: 100%;
+        overflow: auto;
+    }
+
+    header .right .card .scroll span {
+        margin-top: -3px;
+        margin-right: 4px;
+        font-size: 15px;
+        display: flex;
+    }
+
+    header .right .card .scroll h3 {
+        font-size: 10px;
+        text-align: center;
+    }
+    header .right .card button{
+        display: block;
+        margin: auto;
+        margin-top: 10%;
+        padding: 3%;
+        color: #ffffff;
+        background-color: #000000;
+        border-radius: 5px;
+        border: 2px solid #000;
+    }
+    header .right .card button:hover {
+        background-color: #ffffff;
+        transition:.3s linear;
+        color: #000000;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="SwasthyaLedger_transparent.png" alt="">
+            <h1>Research Institutes</h1>
+            <div class="list">
+                <li class="list1">
+                    <span>01</span>
+                    <h5 style="color: #000000; ">
+                        National Institutes of Health (NIH) (US)
+                        <div class="subtitle"><a href="https://www.biospace.com/">www.biospace.com</a></div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <h5 style="color: #000000; ">
+                        National Institutes of Health (NIH)
+                        <div class="subtitle"><a href="https://en.wikipedia.org/
+                            ">en.wikipedia.org
+                            </a></div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <h5 style="color: #000000; ">
+                        Wellcome Trust (UK)
+                        <div class="subtitle"><a href="https://www.britannica.com/
+                            ">www.britannica.com
+                            </a></div>
+                    </h5>
+                </li>
+
+                <li class="songItem">
+                    <span>04</span>
+                    <h5 style="color: #000000; ">
+                        Mayo Clinic (US)
+                        <div class="subtitle"><a href="https://events.umich.edu/
+                            ">events.umich.edu
+                            </a></div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <h5 style="color: #000000; ">
+                        Howard Hughes Medical Institute (US)
+                        <div class="subtitle"><a src="https://www.pasteur.fr/
+                            ">www.pasteur.fr
+                            </a></div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <h5 style="color: #000000; ">
+                        Institut Pasteur (France)
+                        <div class="subtitle"><a href="https://www.pasteur.fr/en
+                            ">https://www.pasteur.fr/en
+                            </a></div>
+                    </h5>
+                </li>
+            </div>
+        </div>
+        <div class="right">
+            <div class="card">
+                <h1>CONSENT FORM</h1>
+                <div class="scroll">
+                    <h3 style="margin-left: 20px;">I authorize to use my anonymized or de-identified medical data for monetization purposes.</h3>
+                </div>
+                <div class="option" style="margin-left: 30%;">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html" style="margin-right: 20%;">YES</label>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">NO</label>
+                </div>
+                <div class="scroll">
+                    <h2 style="text-align: center; font-size: 17px; margin-top:20px; margin-left:10px">CONTACT
+                        INFORMATION</h2>
+                </div>
+                <div class="scroll">
+                    <div class="details" style="margin-top: 20px;">
+                        <h3 style="font-size: 15px; margin-left:10px;">NAME :
+                            <input type="text" name="name" id="name" placeholder="Enter your name"
+                                style="padding: 2%; border:2px solid #787878; border-radius:5px; margin-left:18.5%;">
+                        </h3>
+                        <br>
+                        <h3 style="font-size: 15px; margin-left:10px;">PHONE NUMBER :
+                            <input type="text" name="name" id="name" placeholder="Enter your number"
+                                style="padding: 2%; border:2px solid #787878; border-radius:5px;">
+                        </h3>
+                        <br>
+                        <h3 style="font-size: 15px; margin-left:10px;">Email :
+                            <input type="text" name="name" id="name" placeholder="Enter your email"
+                                style="padding: 2%; border:2px solid #787878; border-radius:5px; margin-left:18.5%;">
+                        </h3>
+
+                    </div>
+                </div>
+                <button>REGISTER</button>
+            </div>
+
+        </div>
+    </header>
+</body>
+
+</html>
